@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HelpDeskChat
+  host: HelpDeskChat
+  disk_quota: 1024M
+  services:
+  - HelpDeskChat-cloudantNoSQLDB
+  - Natural Language Classifier-hr
